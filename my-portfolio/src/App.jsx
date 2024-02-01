@@ -7,6 +7,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import ProjectGallery from './components/ProjectGallery/ProjectGallery';
 import ContactForm from './components/Contact/ContactForm';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/contact" element={<ContactForm />} />
 
       </Routes>
+      <Footer />
     </Router>
 
   )
