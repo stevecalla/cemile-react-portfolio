@@ -1,0 +1,47 @@
+/* Hover effect for project cards */
+.card {
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Pink button styling */
+.button-pink {
+    background-color: #D8B0C7;
+    color: white;
+}
+
+.button-pink:hover {
+    background-color: #C59DAF !important;
+    color: white;
+}
+
+/* Gray button styling */
+.button-gray {
+    background-color: #87848C;
+    color: white;
+}
+
+.button-gray:hover {
+    background-color: #767278 !important;
+    color: white;
+}
+
+/* Dark overlay for images */
+.overlay {
+    position: relative;
+}
+
+.overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    opacity: 1;
+}

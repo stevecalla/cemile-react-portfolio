@@ -5,7 +5,7 @@ import projects from '../../data/projects.json'
 function ProjectGallery() {
     console.log(projects);
     return <div>
-            <div className="container mt-5 text-center">
+            <div className="container mt-3 text-center">
                 <h2 className="mb-4">My Projects</h2>
                 <div className="row justify-content-center">
                     {projects.map((project) => (
