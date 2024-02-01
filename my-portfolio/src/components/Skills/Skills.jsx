@@ -20,7 +20,7 @@ function Skills() {
         <div className="skills-container text-center">
             <h2 className="mb-4">My Skills</h2>
             <p className="fs-5" >Over the course of my web development journey, I have gained skills in different technologies and tools.</p>
-            <div className="d-flex flex-wrap justify-content-center">
+            <div className="d-flex flex-wrap justify-content-center mb-4">
                 {skillsData.map((skill, index) => (
                     <div key={index} className="mb-1">
                         <div className="skill-item">

@@ -8,16 +8,16 @@ import Home from './components/Home/Home';
 import ProjectGallery from './components/ProjectGallery/ProjectGallery';
 import ContactForm from './components/Contact/ContactForm';
 import Footer from './components/Footer/Footer';
+import '/global-styles/style.css'
 
 function App() {
   return (
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" end element={<Home />} />
         <Route path="/projects" element={<ProjectGallery />} />
         <Route path="/contact" element={<ContactForm />} />
-
       </Routes>
       <Footer />
     </Router>
