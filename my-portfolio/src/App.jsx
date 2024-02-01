@@ -6,6 +6,7 @@ import '@fortawesome/fontawesome-free/css/all.css';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import ProjectGallery from './components/ProjectGallery/ProjectGallery';
+import ContactForm from './components/Contact/ContactForm';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<ProjectGallery />} />
+        <Route path="/contact" element={<ContactForm />} />
+
       </Routes>
     </Router>
 

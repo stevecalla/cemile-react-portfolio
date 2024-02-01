@@ -1,0 +1,15 @@
+.button-gray {
+    background-color: #87848C;
+    color: white;
+}
+
+.button-gray:hover {
+    background-color: #767278 !important;
+    color: white;
+}
+
+.form-control:focus {
+    border-color: #D8B0C7 !important;
+    border-width: 2px !important;
+    box-shadow: 0 0 5px #D8B0C7 !important;
+  }

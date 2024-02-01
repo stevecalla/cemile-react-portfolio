@@ -36,7 +36,7 @@
         "title": "Professional README Generator",
         "description": "A command-line application that aims to generate professional README.md files based on user input using the Inquirer.js package to generate the prompts. It is built in Node.js and uses ES6 syntax.",
         "screenshot": "/project-images/readme.png",
-        "linkDeployed": "",
+        "linkDeployed": "https://github.com/cemileblks/professional-readme-generator",
         "linkRepo": "https://github.com/cemileblks/professional-readme-generator"
     },
     {

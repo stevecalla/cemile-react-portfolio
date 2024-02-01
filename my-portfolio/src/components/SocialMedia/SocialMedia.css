@@ -1,0 +1,16 @@
+.button-pink {
+    background-color: #D8B0C7;
+    color: white;
+}
+
+.button-pink:hover {
+    background-color: #C59DAF !important;
+    color: white;
+}
+
+.text-pink {
+    color: #D8B0C7;
+    &:hover {
+        color: #C59DAF;
+    }
+}
