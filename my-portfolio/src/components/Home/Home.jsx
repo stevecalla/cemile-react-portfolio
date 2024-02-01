@@ -25,7 +25,7 @@ function Home() {
                                 Contact me
                             </a>
                         </div>
-                        <div className="col-md-4 col-sm-12 order-md-2 mt-3">
+                        <div className="col-md-4 col-sm-12 order-md-2 mt-4 mt-md-1">
                             <div className="image-container rounded-circle">
                                 <img
                                     src="/cemile.png"

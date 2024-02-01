@@ -4,7 +4,7 @@ import './SocialMedia.css'
 
 function SocialMedia() {
     return (
-        <div className='social-media-wrapper d-flex justify-content-evenly align-items-center mb-3'>
+        <div className='social-media-wrapper d-flex justify-content-evenly align-items-center mb-4'>
             <a href="https://github.com/cemileblks" target="_blank" rel="noopener noreferrer" aria-label="Link to GitHub" className="icon">
                 <i className="fab fa-github fa-3x"></i>
             </a>

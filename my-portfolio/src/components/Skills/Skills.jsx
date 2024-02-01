@@ -17,9 +17,9 @@ const skillsData = [
 
 function Skills() {
     return (
-        <div className="skills-container text-center">
+        <div className="skills-container text-center container">
             <h2 className="mb-4">My Skills</h2>
-            <p className="fs-5" >Over the course of my web development journey, I have gained skills in different technologies and tools.</p>
+            <p className="fs-5" >Having acquired skills in various technologies and tools throughout my web development career, I am looking forward to expanding my skill set through future projects and collaborations.</p>
             <div className="d-flex flex-wrap justify-content-center mb-4">
                 {skillsData.map((skill, index) => (
                     <div key={index} className="mb-1">

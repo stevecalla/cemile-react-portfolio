@@ -4,7 +4,7 @@ import SocialMedia from '../SocialMedia/SocialMedia';
 
 function ContactForm() {
     return (
-        <div className="container">
+        <div className="container mb-3">
             <div className="row">
                 <section className="container col-xs-12 col-sm-8 col-sm-offset-2 col-xl-6 col-xl-offset-3 my-4">
                     <div className="container" style={{ width: '100%' }}>
