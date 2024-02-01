@@ -5,15 +5,15 @@ import * as bootstrap from 'bootstrap';
 
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
+import ProjectGallery from './components/ProjectGallery/ProjectGallery';
 
 function App() {
-  
-
   return (
     <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<ProjectGallery />} />
       </Routes>
     </Router>
 

@@ -3,7 +3,7 @@
         "id": "1",
         "title": "Mood Flix",
         "description": " an innovative platform offering personalized movie and book recommendations based on users' moods. Developed in collaboration with my colleagues, this project utilized a tech stack comprising HTML, CSS, Bootstrap, JavaScript, Dayjs, jQuery, and WebAPI. By employing agile methodologies, we effectively navigated real-world development challenges, resulting in a polished and user-friendly product.",
-        "screenshot":"/project-images/mood-flix",
+        "screenshot":"/project-images/mood-flix.png",
         "linkDeployed": "https://sam-wisdoms.github.io/mood-flix/",
         "linkRepo": "https://github.com/Sam-Wisdoms/mood-flix"
     },
