@@ -2,16 +2,16 @@ import React from "react";
 import "./Skills.css"
 
 const skillsData = [
-    { name: "HTML", icon: "/assets/images/html.svg" },
-    { name: "CSS", icon: "/assets/images/css.svg" },
-    { name: "JavaScript", icon: "/assets/images/js.svg" },
-    { name: "Bootstrap", icon: "/assets/images/bootstrap.svg" },
-    { name: "jQuery", icon: "/assets/images/jquery.svg" },
-    { name: "Node.js", icon: "/assets/images/node.svg" },
-    { name: "Git", icon: "/assets/images/git.svg" },
-    { name: "GitHub", icon: "/assets/images/github.svg" },
-    { name: "React.js", icon: "/assets/images/react.svg" },
-    { name: "Vite", icon: "/assets/images/vite.svg" },
+    { name: "HTML", icon: "./assets/images/html.svg" },
+    { name: "CSS", icon: "./assets/images/css.svg" },
+    { name: "JavaScript", icon: "./assets/images/js.svg" },
+    { name: "Bootstrap", icon: "./assets/images/bootstrap.svg" },
+    { name: "jQuery", icon: "./assets/images/jquery.svg" },
+    { name: "Node.js", icon: "./assets/images/node.svg" },
+    { name: "Git", icon: "./assets/images/git.svg" },
+    { name: "GitHub", icon: "./assets/images/github.svg" },
+    { name: "React.js", icon: "./assets/images/react.svg" },
+    { name: "Vite", icon: "./assets/images/vite.svg" },
 
   ];
 
