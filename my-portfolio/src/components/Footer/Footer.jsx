@@ -2,13 +2,13 @@ import React from "react";
 import "./Footer.css";
 
 
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-// import {
-//   faLinkedin,
-//   faGithub,
-//   faTwitter,
-// } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import {
+  faLinkedin,
+  faGithub,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
@@ -22,8 +22,8 @@ function Footer() {
             aria-label="Link to GitHub"
             className="text-pink mx-3"
           >
-            <i className="fab fa-github fa-2x"></i>
-            {/* <FontAwesomeIcon icon={faGithub} size="xl" /> */}
+            {/* <i className="fab fa-github fa-2x"></i> */}
+            <FontAwesomeIcon icon={faGithub} size="xl" />
           </a>
 
           <a
@@ -33,8 +33,8 @@ function Footer() {
             aria-label="Link to LinkedIn"
             className="text-pink mx-3"
           >
-            <i className="fab fa-linkedin fa-2x"></i>
-            {/* <FontAwesomeIcon icon={faLinkedin} size="xl" /> */}
+            {/* <i className="fab fa-linkedin fa-2x"></i> */}
+            <FontAwesomeIcon icon={faLinkedin} size="xl" />
           </a>
 
           <a
@@ -42,8 +42,8 @@ function Footer() {
             aria-label="Send an Email"
             className="text-pink mx-3"
           >
-            <i className="fas fa-envelope fa-2x"></i>
-            {/* <FontAwesomeIcon icon={faEnvelope} size="xl" /> */}
+            {/* <i className="fas fa-envelope fa-2x"></i> */}
+            <FontAwesomeIcon icon={faEnvelope} size="xl" />
           </a>
 
           <a
@@ -51,8 +51,8 @@ function Footer() {
             aria-label="Send an Email"
             className="text-pink mx-3"
           >
-            <i className="fa-brands fa-x-twitter fa-2x"></i>
-            {/* <FontAwesomeIcon icon={faTwitter} size="xl" /> */}
+            {/* <i className="fa-brands fa-x-twitter fa-2x"></i> */}
+            <FontAwesomeIcon icon={faTwitter} size="xl" />
           </a>
         </div>
 
