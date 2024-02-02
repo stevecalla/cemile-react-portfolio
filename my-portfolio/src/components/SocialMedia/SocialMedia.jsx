@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '/assets/docs/CV.pdf';
+// import CV from '/assets/docs/CV.pdf';
 import './SocialMedia.css'
 
 function SocialMedia() {
@@ -14,7 +14,7 @@ function SocialMedia() {
             <a href="mailto:cemilebalkas@gmail.com" aria-label="Send an Email" className="icon">
                 <i className="fas fa-envelope fa-3x"></i>
             </a>
-            <a className='btn button-pink' href={CV} target="_blank" rel="noreferrer" download>Download my CV</a>
+            <a className='btn button-pink' href="./assets/docs/CV.pdf" target="_blank" rel="noreferrer" download>Download my CV</a>
         </div>
     );
 }
