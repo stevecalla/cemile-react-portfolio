@@ -28,7 +28,7 @@ function Home() {
                         <div className="col-md-4 col-sm-12 order-md-2 mt-4 mt-md-1">
                             <div className="image-container rounded-circle">
                                 <img
-                                    src="/cemile.png"
+                                    src="/assets/images/cemile.png"
                                     alt="Cemile Balkas image"
                                     className="img-fluid rounded-circle"
                                 />
