@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../../../assets/docs/CV.pdf';
+import CV from '/assets/docs/CV.pdf';
 import './SocialMedia.css'
 
 function SocialMedia() {

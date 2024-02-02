@@ -8,7 +8,12 @@ Welcome to my portfolio built with React.js, where I showcase my technical and w
 
 My portfolio's design and layout:
 
-![Cemile Balkas Portfolio Screenshot](./assets/images/screenshot.png)
+![Cemile Balkas Portfolio Screenshot](./my-portfolio/public/assets/images/screenshot.png)
+
+## Deployment
+The deployed website is available at:
+
+[Cemile Balkas React Portfolio](https://cemileblks.github.io/react-portfolio/)
 
 ## Credits
 
