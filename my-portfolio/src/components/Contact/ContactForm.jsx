@@ -1,8 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './ContactForm.css'
 import SocialMedia from '../SocialMedia/SocialMedia';
 
 function ContactForm() {
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    const [submitted, setSubmitted] = useState(false);
+  
+    const handleNameChange = (e) => {
+      setName(e.target.value);
+    };
+  
+    const handleEmailChange = (e) => {
+      setEmail(e.target.value);
+    };
+  
+    const handleMessageChange = (e) => {
+      setMessage(e.target.value);
+    };
+  
+    const handleSubmit = (e) => {
+      e.preventDefault();
+
+      setSubmitted(true);
+  
+      setName('');
+      setEmail('');
+      setMessage('');
+    };
     return (
         <div className="container mb-3">
             <div className="row">
@@ -15,6 +41,7 @@ function ContactForm() {
                             action="https://formkeep.com/f/52549012fb9c"
                             acceptCharset="UTF-8"
                             method="post"
+                            onSubmit={handleSubmit}
                         >
                             <fieldset>
                                 <center>
@@ -31,6 +58,8 @@ function ContactForm() {
                                             id="First_Name"
                                             autoFocus="autofocus"
                                             className="form-control"
+                                            value={name}
+                                            onChange={handleNameChange}
                                         />
                                     </div>
                                 </div>
@@ -46,6 +75,8 @@ function ContactForm() {
                                             required="required"
                                             placeholder="youremail@gmail.com"
                                             className="form-control"
+                                            value={email}
+                                            onChange={handleEmailChange}
                                         />
                                     </div>
                                 </div>
@@ -54,10 +85,22 @@ function ContactForm() {
                                         <label title="required" htmlFor="Message">
                                             Message *
                                         </label>
-                                        <textarea name="Message" id="Message" required="required" className="form-control"></textarea>
+                                        <textarea 
+                                        name="Message"
+                                        id="Message" 
+                                        required="required" 
+                                        className="form-control"
+                                        value={message}
+                                        onChange={handleMessageChange}
+                                        ></textarea>
                                         <small className="form-text text-muted">
                                             Please enter your message above
                                         </small>
+                                        {submitted && (
+                                            <div className="success-message mx-auto text-center mt-2">
+                                                Form successfully submitted, thank you!
+                                            </div>
+                                        )}
                                     </div>
                                 </div>
                                 <br />
@@ -65,7 +108,7 @@ function ContactForm() {
                                     <label htmlFor="subscribe_52549012fb9c_44817"></label>
                                     <input
                                         name="subscribe_52549012fb9c_44817"
-                                        value=""
+                                        defaultValue=""
                                         tabIndex="-1"
                                         autoComplete="off"
                                         type="email"
@@ -75,7 +118,7 @@ function ContactForm() {
                                 </div>
                                 <div className="row">
                                     <div className="col-xs-12">
-                                        <input type="submit" value="Submit" className="btn btn-block button-gray" data-disable-with="Submit" />
+                                        <input type="submit" defaultValue="Submit" className="btn btn-block button-gray" data-disable-with="Submit" />
                                     </div>
                                 </div>
                             </fieldset>
